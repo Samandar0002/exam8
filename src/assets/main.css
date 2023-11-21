@@ -16,7 +16,9 @@ ul {
   font-size: 24px; 
 }
 .board {
+ 
   margin-top: 20px;
+margin: 10px;
 }
 
 .square {
@@ -47,11 +49,43 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
+.input-container label {
+  margin-right: 10px;
+}
+
+.input-container input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.start-button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.start-button:hover {
+  background-color: #45a049;
+}
 .game-info {
-  margin-top: 20px;
   text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .game-info button {
   font-size: 16px; 
@@ -72,4 +106,14 @@ ul {
 .game-info p {
   font-size: 18px;
   margin-top: 10px;
+}
+.status {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.scores {
+  margin-top: 10px;
+  font-size: 16px;
 }
